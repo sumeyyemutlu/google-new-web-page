@@ -1,8 +1,8 @@
 
-body {
-  overflow: hidden;
+body { /* yatay scroll kaldırıldı*/
+  overflow: hidden; 
 }
-.header {
+.header {/*mark ile işaretlenmiş list öğelerinin typleri düzenlendi*/
   list-style-type: none;
   margin: 10px;
   overflow: hidden;
@@ -23,7 +23,7 @@ body {
 .headerli a:hover {
   text-decoration: underline;
 }
-.pic img {
+.pic img {/*profil resmi değiştirildi ve kenarları yuvarlatıldı*/
   border-radius: 50%;
 }
 
@@ -46,12 +46,11 @@ body {
   width: 582px;
 }
 
-.search-area:hover {
+.search-area:hover {/*div gölgelendirildi.*/
 box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
 }
 
 .search {
-  
   flex: 1;
   display: flex;
   padding: 5px 8px 0 16px;
@@ -66,7 +65,7 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
 }
 
 .search-img span {
-  color: #9aa0a6;
+  color: #9aa0a6;/*rengi orijinal google'a uyum sağlatıldı.*/
   height: 20px;
   width: 20px;
   margin-top: 0px;
@@ -84,7 +83,6 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
 }
 
 .input-area {
-
   color: transparent;
   flex: 100%;
   white-space: pre;
@@ -118,20 +116,17 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   appearance: textfield;
   cursor: text;
 }
-
-
 .buttons {
   position: relative;
-  margin-top: 20px;
-  left: 40%;
-
+  margin-top: 20px;/*dış boşluklar ayarlandı*/
+  left: 40%;/*konum ayarlandı*/
 }
 
 .googlesearch {
-  background-color:#f2f2f2 ;
-  border:1px solid #f2f2f2;
+  background-color:#f2f2f2 ;/*orijinal google'a uyum sağlanacak renkler eklendi*/
+  border:1px solid #f2f2f2;/*orijinal google'a uyum sağlanacak renkler eklendi*/
   height: 36px;
-  color: #5F6368;
+  color: #5F6368;/*orijinal google'a uyum sağlanacak renkler eklendi*/
   font-size: 14px;
   margin: 11px 4px;
   padding: 0 16px;
@@ -142,7 +137,7 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   user-select: none;
   border-radius: 4px;
 }
-.googlesearch:hover, .feelinglucky:hover {
+.googlesearch:hover, .feelinglucky:hover {/*butonların üstüne gellince yapılacak olaylar kodlandı*/
   box-shadow: 0 1px 1px rgba(0 0 0 / 10%);
   color: #222;
   border: 1px solid #c6c6c6;
@@ -152,8 +147,8 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
 .feelinglucky {
   height: 36px;
   font-size: 14px;
-  background-color:#f2f2f2 ;
-  border:1px solid #f2f2f2;
+  background-color:#f2f2f2 ;/*orijinal google'a uyum sağlanacak renkler eklendi*/
+  border:1px solid #f2f2f2;/*orijinal google'a uyum sağlanacak renkler eklendi*/
   margin: 11px 4px;
   padding: 0 16px;
   line-height: 27px;
@@ -162,16 +157,16 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   cursor: pointer;
   user-select: none;
   border-radius: 4px;
-  color: #5F6368;
+  color: #5F6368;/*orijinal google'a uyum sağlanacak renkler eklendi*/
 }
 
 .footer {
-  background:#f2f2f2; 
+  background:#f2f2f2; /*orijinal google'a uyum sağlanacak renkler eklendi*/
   margin: 0;
   padding: 0;
   overflow: hidden;
-  border: 1px solid #dfe1e5;
-  border-top: 1px solid #e4e4e4;;
+  border: 1px solid #dfe1e5;/*orijinal google'a uyum sağlanacak renkler eklendi*/
+  border-top: 1px solid #e4e4e4;;/*orijinal google'a uyum sağlanacak renkler eklendi*/
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -181,7 +176,7 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
 
 .footerli {
   float: left;
-  list-style-type: none;
+  list-style-type: none;/*liste elemanlarının default özellikleri devre dışı*/
 }
 
 .footerli a {
